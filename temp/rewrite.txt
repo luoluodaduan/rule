@@ -1,0 +1,6 @@
+# Google
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+^https?:\/\/(ditu|maps)\.google\.cn https://maps.google.com 302
+# YouTube AD
+ctier=[A-Z] citer=A 302
+^https:\/\/[\s\S]*\.googlevideo\.com/.*&(oad|ctier) - REJECT
