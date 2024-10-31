@@ -4132,6 +4132,7 @@ diyifanwen.com##.Hzh2
 dizhanw.com,jiangjunzy.com##div[style="background: #fff;padding:5px;"]
 dj92cc.com,djkk.com,tingqq.com#@#.share_list
 djwma.com###logo
+dk95.com##.advs
 dl.pconline.com.cn##.box-push
 dl.pconline.com.cn##.dlTips
 dl.pconline.com.cn##.links > p:not([class])
@@ -10060,6 +10061,7 @@ zzzyk.com###Tinfo
 ||69b61ba7d6.com^
 ||69i.club^
 ||69oxt4q05.com^
+||69shuba.cx^*/shu.js
 ||69shux.com/js/otherad.
 ||69t49.com/floating/layer.js
 ||69v.club^
@@ -10087,6 +10089,7 @@ zzzyk.com###Tinfo
 ||6e391732a2.com^
 ||6ef2279e3d.com^
 ||6efgcdcjr000.fun^
+||6ft8a.icu^
 ||6fxtpu64lxyt.com^
 ||6gcstb.xyz^
 ||6gi0edui.xyz^
@@ -15963,6 +15966,7 @@ zzzyk.com###Tinfo
 ||aijurivihebo.com^
 ||aikat-vim.com^
 ||aikhra.londonclub.sk^
+||aikkits.com^
 ||aiknx.cn^
 ||aikraith.net^
 ||aikravoapu.com^
@@ -24279,6 +24283,7 @@ zzzyk.com###Tinfo
 ||bwvofgqhmab.com^
 ||bwwhcljtytrpo.com^
 ||bwypxjncsebei.com^
+||bwz4e.icu^
 ||bx-cloud.com^
 ||bxacmsvmxb.com^
 ||bxbuvv.zeelool.com^
@@ -25225,7 +25230,6 @@ zzzyk.com###Tinfo
 ||cc.idasui.cn^
 ||cc.labu24.de^
 ||cc.m.jd.com^
-||cc.map.qq.com^
 ||cc.mpa-web.de^
 ||cc.pennstatehealth.org^
 ||cc.piao.jianzhigg.com^
@@ -38768,6 +38772,7 @@ zzzyk.com###Tinfo
 ||extmaps-api.yandex.net^
 ||extmoney.i1608.com^
 ||extole.com^
+||extopae.icu^
 ||extra33.com^
 ||extraconventional.com^
 ||extractdissolve.com^
@@ -46403,6 +46408,7 @@ zzzyk.com###Tinfo
 ||hottraffic.nl^
 ||hotwire-widget.dailywire.com^
 ||hotwords.com^
+||houbliu.top^
 ||houdodoo.net^
 ||houfopsichoa.com^
 ||hougriwhabool.net^
@@ -50305,6 +50311,7 @@ zzzyk.com###Tinfo
 ||iot.informaengage.com^
 ||iotapool.com^
 ||iotechnologies.com^
+||ioublio.top^
 ||iouvxlio.top^
 ||iovation.com^
 ||iovia-pmj.com^
@@ -51528,6 +51535,7 @@ zzzyk.com###Tinfo
 ||jinhua.com.cn/ad_pic/
 ||jinlanqiangyi.cn^
 ||jinman4.com/ad/
+||jinnanyq.com/js/zmjw.
 ||jinnf.cn^
 ||jinniu168.com^
 ||jinripkk.com^
@@ -51856,6 +51864,7 @@ zzzyk.com###Tinfo
 ||jotskuffieh.website^
 ||jotterswirrah.com^
 ||jouaboe.com^
+||joublia.top^
 ||joucefeet.xyz^
 ||jouchuthin.com^
 ||joudauhee.com^
@@ -73847,6 +73856,7 @@ zzzyk.com###Tinfo
 ||qkcl.o7z0k.cn^
 ||qkdhstfyx.com^
 ||qkfwiylmib.com^
+||qkgllif.icu^
 ||qkhhjm.autoscout24.nl^
 ||qkhvongctffugm.com^
 ||qkikkg.xyz^
@@ -88145,6 +88155,7 @@ zzzyk.com###Tinfo
 ||structurerod.com^
 ||strugglecookingtechnically.com^
 ||strugglingclamour.com^
+||struhuts.com^
 ||strungcourthouse.com^
 ||strungglancedrunning.com^
 ||struq.com^
@@ -102282,6 +102293,7 @@ zzzyk.com###Tinfo
 ||ydwrkwwqytj.xyz^
 ||ydwsjt-2.com^
 ||ydybwjpa.xyz^
+||ye.dun.163yun.com^
 ||ye.tsdlp.com^
 ||ye185hcamw.com^
 ||yea.im/5hq.gif
@@ -102549,6 +102561,7 @@ zzzyk.com###Tinfo
 ||yiyuantian.com^
 ||yizhongyi.info^
 ||yizlda.crocs.co.uk^
+||yj2nf.icu^
 ||yjcf360.com/ad.
 ||yjdigtr.com^
 ||yje912.cn^
