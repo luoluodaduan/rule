@@ -18,6 +18,7 @@ jobs:
       - name: Prepare
         run: |
           sudo apt-get update
+          sudo apt-get install jq
           mkdir -p dist
 
       - name: Setup Python
@@ -34,10 +35,14 @@ jobs:
 
       - name: Generate
         run: |
-          curl -LR -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-no-sex.json" | sed "s/[[:space:]]\+/ /g" | sed 's/^ \| $\|\r//g' | grep -vE "^$" > gen/1.json
-          find -name '1.json' | xargs perl -pi -e 's|"https://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
-          curl -LR -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-only-sex.json" | sed "s/[[:space:]]\+/ /g" | sed 's/^ \| $\|\r//g' | grep -vE "^$" > gen/2.json
-          find -name '2.json' | xargs perl -pi -e 's|"https://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          curl -LR -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-no-sex.json" | sed "s/[[:space:]]\+/ /g" | jq . | grep -vE "^$" > gen/1.json
+          curl -LR -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-only-sex.json" | sed "s/[[:space:]]\+/ /g" | jq . | grep -vE "^$" > gen/2.json
+          find gen -name '*.json' | xargs perl -pi -e 's|"https?://ghp.ci/https://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          find gen -name '*.json' | xargs perl -pi -e 's|"https?://ghproxy.net/https://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          find gen -name '*.json' | xargs perl -pi -e 's|"https?://git.886.be/https://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          find gen -name '*.json' | xargs perl -pi -e 's|"https?://mirror.ghproxy.com/https://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          find gen -name '*.json' | xargs perl -pi -e 's|"https?://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          find gen -name '*.json' | xargs perl -pi -e 's|"https?://raw.gitmirror.com/|"https://raw.kkgithub.com/|g'
           sh scripts/gfwlist.sh -l -o dist/gfw1.txt
           curl -LR -o- "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt" | sed 's/^\.//' | grep -vE '^#|^$' >> dist/gfw1.txt
           cat dist/gfw1.txt temp/gfw_wiki.txt temp/gfw_custom.txt | grep -vE '\.cn$|\.xn--fiqs8s$|\.iqiyi\.|\.youku\.|\.baidu\.|\.weibo\.|\.sina\.|\.hao123' > dist/gfw2.txt
