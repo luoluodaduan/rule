@@ -37,15 +37,15 @@ jobs:
         run: |
           curl -LR -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-no-sex.json" | sed "s/[[:space:]]\+/ /g" | jq . | grep -vE "^$" > gen/1.json
           curl -LR -o- "https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/0914-only-sex.json" | sed "s/[[:space:]]\+/ /g" | jq . | grep -vE "^$" > gen/2.json
-          find gen -name '*.json' | xargs perl -pi -e 's|"https?://gh-proxy.com/raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
-          find gen -name '*.json' | xargs perl -pi -e 's|"https?://ghp.ci/https?://gh-proxy.com/raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          find gen -name '*.json' | xargs perl -pi -e 's|"https?://gh-proxy.com/?/raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          find gen -name '*.json' | xargs perl -pi -e 's|"https?://ghp.ci/https?://gh-proxy.com/?/raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
           find gen -name '*.json' | xargs perl -pi -e 's|"https?://ghp.ci/https?://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
           find gen -name '*.json' | xargs perl -pi -e 's|"https?://ghproxy.net/https?://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
-          find gen -name '*.json' | xargs perl -pi -e 's|"https?://git.886.be/https?://gh-proxy.com/raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          find gen -name '*.json' | xargs perl -pi -e 's|"https?://git.886.be/https?://gh-proxy.com/?/raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
           find gen -name '*.json' | xargs perl -pi -e 's|"https?://git.886.be/https?://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
-          find gen -name '*.json' | xargs perl -pi -e 's|"https?://mirror.ghproxy.com/https?://gh-proxy.com/raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          find gen -name '*.json' | xargs perl -pi -e 's|"https?://mirror.ghproxy.com/https?://gh-proxy.com/?/raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
           find gen -name '*.json' | xargs perl -pi -e 's|"https?://mirror.ghproxy.com/https?://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
-          find gen -name '*.json' | xargs perl -pi -e 's|"https?://mirror.ghproxy.com/raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
+          find gen -name '*.json' | xargs perl -pi -e 's|"https?://mirror.ghproxy.com/?/raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
           find gen -name '*.json' | xargs perl -pi -e 's|"https?://raw.githubusercontent.com/|"https://raw.kkgithub.com/|g'
           sh scripts/gfwlist.sh -l -o dist/gfw1.txt
           curl -LR -o- "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt" | sed 's/^\.//' | grep -vE '^#|^$' >> dist/gfw1.txt
