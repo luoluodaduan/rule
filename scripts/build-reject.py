@@ -8,7 +8,7 @@ def get_reject(url):
     return res.text.split("\n")
 
 reject_urls = []
-reject_urls.append("https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt")
+reject_urls.append("https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt")
 
 if __name__ == "__main__":
     reject = set()
@@ -19,10 +19,13 @@ if __name__ == "__main__":
     reject.sort()
     reject_file1 = open(os.getcwd() + "/dist/reject1.txt", mode="w", encoding="utf-8")
     reject_file2 = open(os.getcwd() + "/dist/reject2.txt", mode="w", encoding="utf-8")
+    reject_file3 = open(os.getcwd() + "/dist/reject3.txt", mode="w", encoding="utf-8")
     for line in reject:
         if not line.startswith(("#", "!", "！", "[")) and len(line) > 0:
-            line = line.replace(" ", "").replace("\t", "").replace("\r", "")
-            reject_file1.write("%s\n" % line)
-            reject_file2.write("  - '%s'\n" % line)
+            line = line.replace(" ", "").replace("\t", "").replace("\r", "").replace("DOMAIN-SUFFIX,", "")
+            reject_file1.write(".%s\n" % line)
+            reject_file2.write("  - '+.%s'\n" % line)
+            reject_file3.write("address=/%s/\n" % line)
     reject_file1.close()
     reject_file2.close()
+    reject_file3.close()
