@@ -35,21 +35,6 @@
       }
     },
     {
-      "key": "Jav_emby",
-      "name": "🍏 Jav┃Emby",
-      "type": 3,
-      "api": "https://raw.kkgithub.com/jmheqiao/pg/main/lib/py_emby.py",
-      "filterable": 1,
-      "ext": {
-        "server": "http://jav.creativeinfo.org:8096",
-        "username": "atest",
-        "password": "atest123",
-        "thread": 0,
-        "proxy": "",
-        "changeable": 1
-      }
-    },
-    {
       "key": "xvideos4中文",
       "name": "🔞xvideos4中文",
       "type": 3,
@@ -727,6 +712,43 @@
       }
     },
     {
+      "key": "csp_XBPQ_春水堂",
+      "name": "🔞春水堂",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://cst1.buzz/frim/index{cateId}-{catePg}.html",
+        "直接播放": "0",
+        "图片": "data-original=\"&&\"",
+        "播放数组": "class=\"panel clearfix&&</div>",
+        "分类": ""
+      }
+    },
+    {
+      "key": "色花堂",
+      "name": "🔞色花堂",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "filterable": 1,
+      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/色花堂.json",
+      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar"
+    },
+    {
+      "key": "蜜桃社(采集)🔞",
+      "name": "🔞蜜桃社",
+      "type": 1,
+      "api": "https://mitaoshe.cyou/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [],
+      "style": {
+        "type": "rect",
+        "ratio": 1.6
+      }
+    },
+    {
       "key": "csp_XBPQ_中文｜0",
       "name": "🔞香蕉中文",
       "type": 3,
@@ -1195,7 +1217,7 @@
     },
     {
       "key": "hipy_js_29片库[密]",
-      "name": "29片库",
+      "name": "🔞29片库",
       "type": 3,
       "api": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_libs/drpy2.min.js",
       "filterable": 1,
@@ -2202,21 +2224,6 @@
       }
     },
     {
-      "key": "csp_XBPQ_春水堂",
-      "name": "🔞春水堂",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
-      "filterable": 1,
-      "ext": {
-        "分类url": "https://cst1.buzz/frim/index{cateId}-{catePg}.html",
-        "直接播放": "0",
-        "图片": "data-original=\"&&\"",
-        "播放数组": "class=\"panel clearfix&&</div>",
-        "分类": ""
-      }
-    },
-    {
       "key": "csp_XBPQ_流水",
       "name": "🔞流水",
       "type": 3,
@@ -2480,7 +2487,7 @@
     },
     {
       "key": "py_BadNews",
-      "name": "壞壞惹人愛",
+      "name": "🔞壞壞惹人愛",
       "type": 4,
       "api": "https://py.doube.eu.org/spider?site=BadNews",
       "searchable": 1,
@@ -2565,7 +2572,7 @@
     },
     {
       "key": "天空资源",
-      "name": "天空",
+      "name": "🔞天空",
       "type": 1,
       "api": "https://api.tiankongapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -2685,7 +2692,7 @@
     },
     {
       "key": "华为吧资源",
-      "name": "华为吧",
+      "name": "🔞华为吧",
       "type": 1,
       "api": "https://hw8.live/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -2855,7 +2862,7 @@
       "name": "🔞博天堂",
       "type": 0,
       "api": "http://bttcjz.com/inc/sapi.php",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+      "jar": "https://gh-proxy.com//raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
       "searchable": 1,
       "quickSearch": 1
     },
@@ -2870,15 +2877,6 @@
         "直接播放": "1",
         "分类": "國產AV$國產AV#探花$探花#自拍流出$自拍流出#日本$日本"
       }
-    },
-    {
-      "key": "色花堂",
-      "name": "🔞色花堂",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "filterable": 1,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/json/色花堂.json",
-      "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar"
     },
     {
       "key": "色最色",
@@ -3087,7 +3085,7 @@
     },
     {
       "key": "最大资源",
-      "name": "最大",
+      "name": "🔞最大",
       "type": 1,
       "api": "https://api.zuidapi.com/api.php/provide/vod/from/zuidam3u8/",
       "searchable": 1,
@@ -3584,19 +3582,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "https://raw.kkgithub.com/wanganni/yinshiyuan/main/tv/XYQHiker/91hd.json",
-      "style": {
-        "type": "rect",
-        "ratio": 1.6
-      }
-    },
-    {
-      "key": "蜜桃社(采集)🔞",
-      "name": "🔞蜜桃社｜失效",
-      "type": 1,
-      "api": "https://mitaoshe.cyou/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "categories": [],
       "style": {
         "type": "rect",
         "ratio": 1.6

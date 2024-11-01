@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar",
+  "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/pg.jar;md5;799971d617e4145ba9c937b001087e3c",
   "logo": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813_6e2553f5708c414386eeca88b5f2674a~c5_300x300.jpeg?from=2956013662",
   "wallpaper": "https://picsum.photos/1080/",
   "sites": [
@@ -5522,7 +5522,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
-      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_js/采集之王[合].js?type=url&params=.https://raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/json/采集静态.json$1"
+      "ext": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/drpy_js/采集之王[合].js?type=url&params=.https://gh-proxy.com/raw.githubusercontent.com/newrecha/TVBOX/refs/heads/main/json/采集静态.json$1"
     },
     {
       "key": "drpy_js_电影港",
@@ -5887,7 +5887,7 @@
       "quickSearch": 1,
       "ext": {
         "spider": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/fan.txt;md5;8851819289f80deae32319080028db3b",
-        "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar",
+        "jar": "https://raw.kkgithub.com/newrecha/TVBOX/refs/heads/main/jar/XBPQ.jar;md5;4145467d49e0437dc43e8bbb79e3ff7d",
         "主页url": "https://gimy.ai/",
         "分类url": "https://gimy.ai/cat/{cateId}-{area}-{by}------{catePg}---{year}.html",
         "分类": "電視劇#動漫#電影#綜藝",
